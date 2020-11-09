@@ -20,7 +20,7 @@ However, since this data set was quite unbalanced, another method may have been 
 #### notebook to train the model: [https://github.com/sweagle07/attack_classification/blob/main/AttackClassifier_train_valid_set.ipynb]
 #### notebook to classify new data against the model: [https://github.com/sweagle07/attack_classification/blob/main/AttackClassifier_classify_model.ipynb]
 #### .py command line version to classify data: [https://github.com/sweagle07/attack_classification/blob/main/AttackClassifier_classify_model.py]
-#### trained model: 
+#### trained model: [https://github.com/sweagle07/attack_classification/blob/main/train_df.pkl_model.sav] 
 
 xCode for the trained classifier
 A command to train the classifier and a command to run your classifier on new data
