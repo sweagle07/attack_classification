@@ -18,8 +18,8 @@ I chose to use the random forest algorithm to build model due to the power of en
 However, since this data set was quite unbalanced, another method may have been more effective. This was still a good place to start in any case.   
 
 #### notebook to train the model: [https://github.com/sweagle07/attack_classification/blob/main/AttackClassifier_train_valid_set.ipynb]
-#### notebook to classify new data against the model: []
-#### .py command line version to classify data: []
+#### notebook to classify new data against the model: [https://github.com/sweagle07/attack_classification/blob/main/AttackClassifier_classify_model.ipynb]
+#### .py command line version to classify data: [https://github.com/sweagle07/attack_classification/blob/main/AttackClassifier_classify_model.py]
 #### trained model: 
 
 xCode for the trained classifier
