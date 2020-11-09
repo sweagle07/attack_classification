@@ -5,7 +5,7 @@ Spyder Editor
 
 AttackClassifier_classify_model.py
 
--c <data_to_classify>
+AttackClassifier_classify_model -c <data_to_classify>
 
 The purpose of this script is to classify network connections
 ##  into potentially bad or good based on the type of attack or normal
@@ -122,7 +122,7 @@ def main(argv):
     data_file = ''
     
     try:
-        opts, args = getopt.getopt(argv,"hc:t:e:",["cclassify","ttrain","evaluate"])
+        opts, args = getopt.getopt(argv,"hc:",["cclassify"])
     except getopt.GetoptError:
         print('AttackClassifier_classify_model.py -c <datafile>')
         sys.exit(2)
@@ -135,10 +135,6 @@ def main(argv):
         elif opt in ('-c', '--classify'):
             data_file = arg
             classify(data_file)
-        
-        elif opt in ('-t', '--train'):
-            data_file = arg
-            train_classifier(data_file)
     
 
 if __name__ == "__main__":
