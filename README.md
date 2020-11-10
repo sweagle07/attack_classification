@@ -34,4 +34,4 @@ There was not enough data to get a good model for the R2L and U2R attack types. 
 
 Given more time, I would have spent more time with the feature engineering process. I used a group of features recommended from the feature selector object. However, I ran out of time to look further into the true impact of each feature as well as determine if feature correlation could have helped reduce the dimensionality further. 
 
-I also would have liked to understand address the impact of the training and test sets coming from different probability distributions.
+I also would have liked to understand and address the impact of the training and test sets coming from different probability distributions.
